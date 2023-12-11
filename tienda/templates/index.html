@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block titul %} Inicio {% endblock %}
+
+{% block contenedor %}
+
+    <main>
+        <section>
+        </section>
+        <section class="mt-4">
+            <hr>
+            <div class="d-flex justify-content-evenly">
+                <div class="card" style="width: 18rem;">
+                    <img src="{% static 'tienda/img/vestidoB.jpg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="text-center">Renacer</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="{% static 'tienda/img/vestido.jpg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="text-center">Vestido Sublimado Blanco</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mt-4">
+            <hr>
+            <div class="container-lg">
+                <div class="d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="text-center">Video</p>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <h3>Curandera</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla minima temporibus iure saepe, molestias dignissimos magnam laboriosam ipsa omnis? Animi ratione saepe dolores placeat sunt cupiditate, natus quae eius perspiciatis.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+{% endblock %}
